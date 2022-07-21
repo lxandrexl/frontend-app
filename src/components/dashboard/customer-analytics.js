@@ -84,15 +84,7 @@ export const CustomerAnalytics = (props) => {
   return (
     <Card {...props}>
       <CardHeader
-        action={(
-          <Button
-            endIcon={<ArrowDropDownIcon fontSize="small" />}
-            size="small"
-          >
-            Last 7 days
-          </Button>
-        )}
-        title="Latest Sales"
+        title="Analisis de clientes"
       />
       <Divider />
       <CardContent>
@@ -116,13 +108,6 @@ export const CustomerAnalytics = (props) => {
           p: 2
         }}
       >
-        <Button
-          color="primary"
-          endIcon={<ArrowRightIcon fontSize="small" />}
-          size="small"
-        >
-          Overview
-        </Button>
       </Box>
     </Card>
   );
