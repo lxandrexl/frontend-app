@@ -26,10 +26,6 @@ export const CustomerForm = ({ updateData }) => {
     dateOfBirth: '',
   });
 
-
-
-  console.log('updateData', updateData)
-
   const handleChange = (event) => {
     let status = true;
 

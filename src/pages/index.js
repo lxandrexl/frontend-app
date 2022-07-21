@@ -43,7 +43,6 @@ const Dashboard = () => {
   }, []);
 
   useEffect(async () => {
-    console.log('CAMBIO DATA', updateData)
     await getKPI();
     await getCustomers();
   }, [updateData])
